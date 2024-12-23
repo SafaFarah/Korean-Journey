@@ -183,3 +183,91 @@ export default function MainPage() {
   <div className="flex items-start justify-between md:self-stretch">
     <div className="mb-14 ml-[-34px] w-[30%] rounded-[50%] border-[15px] border-solid border-gray-600 bg-white-a700_01" />
   <Img
+      src="images/img_restaurant.png"
+      alt="Restaurant"
+      className="mb-2 ml-1.5 h-[183px] w-full object-cover md:ml-0 md:h-auto"
+    />
+  </div>
+  <div className="w-[30%] self-end rounded-[50%] border-[15px] border-solid border-gray-600 bg-white-a700_01 p-1">
+    <img
+      src="images/img_seasons.png"
+      alt="Seasons"
+      className="h-[110px] w-full object-cover md:h-auto"
+    />
+  </div>
+  <div>
+    <img
+      src="images/img_silver_medal.png"
+      alt="Silvermedal"
+      className="mr-[-114px] h-[174px] w-[46%] object-contain md:mr-0"
+    />
+  </div>
+  <div className="w-[12%] rounded-[50%] border-[15px] border-solid border-gray-600 bg-white-a700_01 md:w-full">
+    <img
+      src="images/img_sport.png"
+      alt="Sport"
+      className="h-[122px] w-full object-cover md:h-auto"
+    />
+  </div>
+</div>
+<div className="relative z-[6] mt-[-130px] flex flex-col">
+  <div className="flex flex-col items-center">
+    <div className="container-xs relative z-[7] flex flex-col items-end pl-14 pr-[416px] md:px-5">
+    <Img
+  src="images/img_158picw58piczii.png"
+  alt="158picw58piczii"
+  className="w-[54%] object-contain"
+/>
+<div className="relative mt-[-28px] h-[1024px] self-stretch bg-[url(/public/images/img_group_173.png)] bg-cover bg-no-repeat px-[116px] py-[100px] md:p-5">
+  <div className="absolute left-0 right-0 top-[10%] mx-auto flex flex-1 items-start justify-center px-14 md:px-5 sm:relative sm:flex-col">
+    <div className="mb-32 mt-14 h-[152px] w-[144px] rounded-[50%] border-[15px] border-solid border-gray-600 bg-white-a700_01" />
+    <div className="ml-2 h-[152px] w-[144px] self-end rounded-[50%] border-[15px] border-solid border-gray-600 bg-white-a700_01 sm:ml-0" />
+    <div className="ml-1 h-[152px] w-[144px] rounded-[50%] border-[15px] border-solid border-gray-600 bg-white-a700_01 sm:ml-0" />
+  </div>
+  <div className="absolute right-[23%] top-[30%] m-auto h-[150px] w-[144px] rounded-[50%] border-[15px] border-solid border-gray-600 bg-white-a700_01" />
+  <div className="absolute bottom-[13%] left-0 right-0 m-auto flex w-[52%] flex-col items-end gap-[46px]">
+    <div className="h-[152px] w-[144px] rounded-[50%] border-[15px] border-solid border-gray-600 bg-white-a700_01" />
+    <Img
+      src="images/img_gold_silver_and.png"
+      alt="Goldsilverand"
+      className="mr-[-186px] w-[32%] object-contain md:mr-0"
+/>
+  </div>
+  <div className="absolute bottom-[26%] left-0 right-0 mx-auto flex w-[84%] items-start sm:relative sm:flex-col">
+    <div className="w-[52px] h-[150px] w-[144px] rounded-[50%] border-[15px] border-solid border-gray-600 bg-white-a700_01" />
+    <div className="flex flex-1 flex-col items-start gap-[30px] self-center px-12 md:px-5 sm:self-stretch">
+      <div className="ml-[126px] h-[150px] w-[144px] rounded-[50%] border-[15px] border-solid border-gray-600 bg-white-a700_01 md:ml-0" />
+      <div className="h-[150px] w-[144px] rounded-[50%] border-[15px] border-solid border-gray-600 bg-white-a700_01" />
+    </div>
+  </div>
+</div>
+<Img
+  src="images/img_20_201604_south.png"
+  alt="20201604south"
+  className="relative z-[8] mt-[-42px] h-[384px] w-[14%] object-contain"
+/>
+<div className="absolute bottom-0 left-0 right-0 z-[9] mx-auto flex flex-1 flex-col items-center">
+  <div className="container-xs relative z-[7] flex flex-col items-end pl-14 pr-[416px] md:px-5">
+  <Img
+  src="images/img_158picw58piczii.png"
+  alt="158picw58piczii"
+  className="h-[354px] w-[54%] object-contain"
+/>
+<Img
+  src="images/img_learn_path_4.png"
+  alt="Learnpathfour"
+  className="relative mt-[-22px] h-[200px] w-full object-cover md:h-auto"
+/>
+<div className="absolute bottom-[34%] right-[18%] z-[11] m-auto h-[150px] w-[144px] rounded-[50%] border-[15px] border-solid border-gray-600 bg-white-a700_01" />
+<Img
+  src="images/img_ii_sok_1.png"
+  alt="iisookthree"
+  className="absolute bottom-5 left-[7%] z-[12] m-auto h-[360px] w-[26%] object-contain"
+/>
+</div>
+</div>
+</div>
+</div>
+</>
+);
+}

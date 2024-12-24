@@ -14,13 +14,6 @@
     font-weight: 400;
   }
   
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    src: url("/public/fonts/LibreBaskervilleBold.ttf");
-    font-family: "Libre Baskerville";
-    font-weight: 700;
-  }
   
   @font-face {
     font-display: swap;
@@ -37,14 +30,7 @@
     font-family: "Inter";
     font-weight: 800;
   }
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    src: url("/public/fonts/InstrumentSansBoldItalic.ttf");
-    font-family: "Instrument Sans";
-    font-weight: 700;
-  }
-  
+
   @font-face {
     font-display: swap;
     font-style: normal;

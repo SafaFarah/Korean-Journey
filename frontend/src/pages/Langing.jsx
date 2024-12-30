@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { useNavigate } from "react-router-dom";
 
-export default function LandingPage() {
+export default function Landing() {
   const navigate = useNavigate();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
+  // قائمة الصور للعرض المتناوب
   const images = [
     "images/img_2.png",
     "images/img_3.png",
@@ -22,6 +23,15 @@ export default function LandingPage() {
     return () => clearInterval(interval); // تنظيف المؤقت عند إلغاء المكون
   }, [images.length]);
 
+  // التحقق من تسجيل الدخول وإعادة التوجيه إذا كان المستخدم مسجل دخول
+  useEffect(() => {
+    const token = localStorage.getItem("token"); // تحقق من وجود التوكن
+    if (token) {
+      navigate("/dashboard"); // إعادة التوجيه إلى Dashboard إذا كان مسجل دخول
+    }
+  }, [navigate]);
+
+  // دالة التنقل إلى صفحة تسجيل الدخول
   const handleLoginClick = () => {
     navigate("/login");
   };
@@ -30,12 +40,15 @@ export default function LandingPage() {
     <>
       <Helmet>
         <title>Korean Journey - Landing</title>
-        <meta name="description" content="Welcome to the Korean Journey landing page!" />
+        <meta
+          name="description"
+          content="Welcome to the Korean Journey landing page! Learn Korean in an interactive and fun way."
+        />
       </Helmet>
 
-      {/* Page Wrapper */}
+      {/* صفحة الهبوط */}
       <div className="relative h-screen w-screen">
-        {/* Background Image */}
+        {/* الخلفية */}
         <div
           className="absolute inset-0"
           style={{
@@ -46,13 +59,11 @@ export default function LandingPage() {
           }}
         ></div>
 
-        {/* Tinted Overlay */}
+        {/* تراكب ملون */}
         <div className="absolute inset-0 bg-blue_gray-100 opacity-10"></div>
 
-        {/* Header */}
-        <header className="absolute top-0 left-0 w-full flex items-center justify-between px-4 py-0 z-20">
-          <div className="absolute inset-0 bg-gray-200 bg-opacity-60 rounded-md mx-0 h-full"></div>
-
+        {/* الهيدر */}
+        <header className="absolute top-0 left-0 w-full flex items-center justify-between px-4 py-4 z-20">
           <img
             src="images/img_header_logo.png"
             alt="Header Logo"
@@ -68,9 +79,9 @@ export default function LandingPage() {
           </button>
         </header>
 
-        {/* Main Content Section */}
+        {/* المحتوى الرئيسي */}
         <div className="absolute inset-0 flex flex-col items-center justify-start mt-10">
-          {/* Image Carousel */}
+          {/* الكاروسيل (عرض الصور المتناوب) */}
           <div className="relative w-[100%] h-[70%] mt-20 overflow-hidden rounded-lg bg-white shadow-lg">
             {images.map((image, index) => (
               <img
@@ -84,15 +95,13 @@ export default function LandingPage() {
             ))}
           </div>
 
-          {/* Start Journey Button */}
-<button
-  className="mt-2 px-4 py-3 bg-gradient-to-r from-blue-800 to-red-600 text-white-a700 rounded-lg hover:scale-105 transition-all text-3xl font-bold"
-  onClick={() => navigate("/login")}
->
-  Start Journey
-</button>
-
-
+          {/* زر بدء الرحلة */}
+          <button
+            className="mt-4 px-6 py-3 bg-gradient-to-r from-blue-800 to-red-600 text-white rounded-lg hover:scale-105 transition-all text-3xl font-bold"
+            onClick={() => navigate("/login")}
+          >
+            Start Your Journey
+          </button>
         </div>
       </div>
     </>

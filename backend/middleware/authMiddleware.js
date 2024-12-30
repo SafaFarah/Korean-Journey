@@ -1,27 +1,33 @@
 const jwt = require("jsonwebtoken");
+const User = require("../models/User.js");
 
-const authMiddleware = (req, res, next) => {
-  // الحصول على التوكن من رأس الطلب (Authorization)
-  const token = req.header("Authorization")?.replace("Bearer ", "");
+const authMiddleware = async (req, res, next) => {
+	try {
+		const token = req.cookies.jwt;
 
-  // إذا لم يتم إرسال التوكن
-  if (!token) {
-    return res.status(401).json({ error: "Authentication required" });
-  }
+		if (!token) {
+			return res.status(401).json({ error: "Unauthorized - No Token Provided" });
+		}
 
-  try {
-    // التحقق من صحة التوكن باستخدام المفتاح السري
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+		const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
-    // تخزين الـ userId المستخرج من التوكن في الـ request
-    req.userId = decoded.userId;
+		if (!decoded) {
+			return res.status(401).json({ error: "Unauthorized - Invalid Token" });
+		}
 
-    // الانتقال إلى الدالة التالية في السلسلة
-    next();
-  } catch (error) {
-    // إذا كان التوكن غير صالح أو منتهي الصلاحية
-    res.status(401).json({ error: "Invalid or expired token" });
-  }
+		const user = await User.findById(decoded.userId).select("-password");
+
+		if (!user) {
+			return res.status(404).json({ error: "User not found" });
+		}
+
+		req.user = user;
+
+		next();
+	} catch (error) {
+		console.log("Error in protectRoute middleware: ", error.message);
+		res.status(500).json({ error: "Internal server error" });
+	}
 };
 
 module.exports = authMiddleware;

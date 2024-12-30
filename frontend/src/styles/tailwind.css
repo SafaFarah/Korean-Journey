@@ -1,96 +1,34 @@
+/* tailwind.css */
+
+/* تضمين أساسيات Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* تخصيص الألوان */
 @layer base {
   :root {
-    /* ------Color variables------ */
-    --black_900: #000000;
-    --black_900_3f: #0000003f;
-    --blue_300: #67bae5;
-    --blue_400: #0047ab;
-    --blue_900_01: #0033a0;
-    --blue_900: #00338c;
-    --blue_gray_100: #d9d9d9;
-    --blue_gray_100_19: #d9d9d919;
-    --blue_gray_100_b2: #d9d9d9b2;
-    --gray_600: #778877;
-    --gray_800: #663d31;
-    --indigo_700: #4c46a1;
-    --light_blue_400: #1aabec;
-    --pink_600: #dc355f;
-    --red_700: #dc2d23;
-    --red_700_01: #d52b1e;
-    --white_a700: #ffffff;
-    --white_a700_01: #ffffff;
-    --white_a700_7f: #ffffff7f;
-
-    /* ------Shadow variables------ */
-    --shadow-xs: 0 4px 4px 0 #0000003f;
-
-    /* ------Border radius variables------ */
-    --radius-xs: 10px;
-    --radius-sm: 20px;
-    --radius-md: 40px;
-    --radius-lg: 74px;
-
-    /* ------Spacing variables------ */
-    --space-xs: 8px;
-    --space-sm: 14px;
-    --space-md: 40px;
+    --primary-color: #1e40af; /* أزرق */
+    --secondary-color: #f97316; /* برتقالي */
+    --background-light: #f3f4f6; /* خلفية فاتحة */
+    --text-dark: #111827; /* نص داكن */
   }
-
-  [type="text"],
-  input:where(:not([type])),
-  [type="email"],
-  [type="url"],
-  [type="password"],
-  [type="number"],
-  [type="date"],
-  [type="datetime-local"],
-  [type="month"],
-  [type="search"],
-  [type="tel"],
-  [type="time"],
-  [type="week"],
-  textarea,
-  select {
-    appearance: none;
-    background-color: transparent;
-    border-color: unset;
-    border-width: 0;
-    border-radius: unset;
-    padding: unset;
-    font-size: unset;
-    line-height: unset;
-  }
-
-  /* Override default focus colors for tailwindcss-forms https://github.com/tailwindlabs/tailwindcss-forms */
-  [type="text"]:focus,
-  [type="email"]:focus,
-  [type="url"]:focus,
-  [type="password"]:focus,
-  [type="number"]:focus,
-  [type="date"]:focus,
-  [type="search"]:focus,
-  [multiple]:focus,
-textarea:focus,
-select:focus {
-  --tw-ring-color: transparent;
-  border-color: transparent;
 }
 
-[type="radio"]:focus,
-[type="checkbox"]:focus {
-  --tw-ring-color: transparent;
-}
-
+/* إضافة مكونات مخصصة */
 @layer components {
-  /* ------------------------------------------
-     Container CSS
-  ------------------------------------------ */
-  .container-xs {
-    @apply w-full mx-auto max-w-[1378px];
+  .btn-primary {
+    @apply bg-blue-800 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-500 transition;
   }
 }
+
+/* تخصيص الحواف */
+@layer utilities {
+  .rounded-xl {
+    border-radius: 1rem;
+  }
 }

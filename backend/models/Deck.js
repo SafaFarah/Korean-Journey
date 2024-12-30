@@ -22,6 +22,10 @@ const deckSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "Flashcard", // مرجع للبطاقات المرتبطة بهذه المجموعة
   }],
+  progress: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Progress",
+  }],
   createdAt: {
     type: Date,
     default: Date.now, // تاريخ الإنشاء

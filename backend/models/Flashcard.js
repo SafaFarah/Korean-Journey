@@ -33,10 +33,8 @@ const flashcardSchema = new mongoose.Schema({
     },
   },
   progress: {
-    type: Number,
-    default: 0, // Default progress (e.g., 0 for not reviewed)
-    min: 0,
-    max: 100,
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Progress",
   },
   createdAt: {
     type: Date,

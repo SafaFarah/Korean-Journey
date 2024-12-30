@@ -1,46 +1,40 @@
-import { Text, Img } from "./";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-export default function Header({ ...props }) {
+export default function Header({ title = "Korean Journey" }) {
+  const navigate = useNavigate();
+
   return (
-    <header {...props} className={`${props.className} flex md:flex-col justify-between items-start gap-5 px-[18px]`}>
-      <Img
-        src="images/img_header_logo.png"
-        alt="HeaderLogo"
-        className="h-[162px] w-[308px] self-center object-contain"
-      />
-      <div className="mr-4 mt-[22px] flex md:mr-0">
-        <ul className="flex flex-wrap gap-[50px]">
-          <li>
-            <a href="#" className="md:text-[38px] sm:text-[36px]">
-              <Text as="p" className="font-lemon text-[40px] font-normal text-white-a700_01">
-                Track
-              </Text>
-            </a>
-          </li>
-          <li>
-            <a href="#" className="md:text-[38px] sm:text-[36px]">
-              <Text as="p" className="font-lemon text-[40px] font-normal text-white-a700_01">
-                Favorite
-              </Text>
-            </a>
-          </li>
-          <li>
-            <a href="#" className="md:text-[38px] sm:text-[36px]">
-              <Text as="p" className="font-lemon text-[40px] font-normal text-white-a700_01">
-                Medals
-              </Text>
-            </a>
-          </li>
-          <li>
-          <a href="#" className="md:text-[38px] sm:text-[36px]">
-  <Text as="p" className="font-lemon text-[40px] font-normal text-white-a700_01">
-    Logout
-  </Text>
-</a>
-</li>
-        </ul>
-      </div>
+    <header className="bg-gradient-to-r from-blue-700 to-blue-900 text-white py-4 px-6 flex justify-between items-center shadow-lg">
+      {/* Logo / Title */}
+      <h1
+        className="text-3xl font-extrabold cursor-pointer hover:opacity-90 transition duration-300"
+        onClick={() => navigate("/")}
+      >
+        {title}
+      </h1>
+
+      {/* Navigation */}
+      <nav className="flex items-center space-x-4">
+        <button
+          onClick={() => navigate("/dashboard")}
+          className="px-5 py-2 bg-gray-700 hover:bg-gray-800 rounded-lg text-white font-medium shadow-md transition duration-300 transform hover:scale-105"
+        >
+          Dashboard
+        </button>
+        <button
+          onClick={() => navigate("/settings")}
+          className="px-5 py-2 bg-yellow-500 hover:bg-yellow-600 rounded-lg text-white font-medium shadow-md transition duration-300 transform hover:scale-105"
+        >
+          Settings
+        </button>
+        <button
+          onClick={() => navigate("/logout")}
+          className="px-5 py-2 bg-red-500 hover:bg-red-600 rounded-lg text-white font-medium shadow-md transition duration-300 transform hover:scale-105"
+        >
+          Logout
+        </button>
+      </nav>
     </header>
   );
 }

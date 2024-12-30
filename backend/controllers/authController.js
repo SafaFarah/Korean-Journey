@@ -1,64 +1,91 @@
-const { json } = require("express");
-const { sign } = require("jsonwebtoken");
-const { findOne } = require("../models/Deck");
-const User = require("../models/User");
-const jwt = require("jsonwebtoken");
+const bcrypt = require("bcryptjs");
+const User = require("../models/User.js");
+const generateTokenAndSetCookie = require("../utils/generateToken.js");
 
-// دالة للتسجيل (Signup)
 const signup = async (req, res) => {
   try {
     const { name, email, password } = req.body;
 
-    const existingUser = await User.findOne({ email });
-    if (existingUser) {
-      return res.status(400).json({ error: "Email is already in use" });
+    const user = await User.findOne({ name });
+
+    if (user) {
+      return res.status(400).json({ error: "Username already exists" });
     }
 
-    const newUser = new User({ name, email, password });
-    await newUser.save();
+    // HASH PASSWORD HERE
+    const salt = await bcrypt.genSalt(10);
+    const hashedPassword = await bcrypt.hash(password, salt);
 
-    const token = jwt.sign({ userId: newUser._id }, process.env.JWT_SECRET, { expiresIn: "1h" });
-
-    res.status(201).json({
-      message: "User registered successfully",
-      token,
-      user: { id: newUser._id, name: newUser.name, email: newUser.email },
+    const newUser = new User({
+      name,
+      email,
+      password: hashedPassword,
     });
+
+    if (newUser) {
+      // Generate JWT token here
+      generateTokenAndSetCookie(newUser._id, res);
+      await newUser.save();
+
+      res.status(201).json({
+        _id: newUser._id,
+        name: newUser.name,
+        email: newUser.email,
+      });
+    } else {
+      res.status(400).json({ error: "Invalid user data" });
+    }
   } catch (error) {
-    res.status(500).json({ error: "Error registering user", details: error });
+    console.log("Error in signup controller", error.message);
+    res.status(500).json({ error: "Internal Server Error" });
   }
 };
 
-// دالة لتسجيل الدخول (Login)
 const login = async (req, res) => {
   try {
     const { email, password } = req.body;
-
     const user = await User.findOne({ email });
-    if (!user) {
-      return res.status(404).json({ error: "User not found" });
+    const isPasswordCorrect = await bcrypt.compare(password, user?.password || "");
+
+    if (!user || !isPasswordCorrect) {
+      return res.status(400).json({ error: "Invalid email or password" });
     }
 
-    const isMatch = await user.comparePassword(password);
-    if (!isMatch) {
-      return res.status(400).json({ error: "Invalid credentials" });
-    }
-
-    const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET, { expiresIn: "1h" });
+    generateTokenAndSetCookie(user._id, res);
 
     res.status(200).json({
-      message: "Login successful",
-      token,
-      user: { id: user._id, name: user.name, email: user.email },
+      _id: user._id,
+      name: user.name,
+      email: user.email,
     });
   } catch (error) {
-    res.status(500).json({ error: "Error logging in", details: error });
+    console.log("Error in login controller", error.message);
+    res.status(500).json({ error: "Internal Server Error" });
   }
 };
 
-// دالة للتحقق من المصادقة (Auth)
-const authenticate = (req, res) => {
-  res.status(200).json({ message: "User is authenticated" });
+const getUsersForSidebar = async (req, res) => {
+  try {
+    const loggedInUserId = req.user._id;
+
+    const filteredUsers = await User.find({ _id: { $ne: loggedInUserId } }).select("-password");
+
+    res.status(200).json(filteredUsers);
+  } catch (error) {
+    console.error("Error in getUsersForSidebar: ", error.message);
+    res.status(500).json({ error: "Internal server error" });
+  }
 };
 
-module.exports = { signup, login, authenticate };
+const logout = (req, res) => {
+  try {
+    res.cookie("jwt", "", { maxAge: 0 });
+    res.status(200).json({ message: "Logged out successfully" });
+  } catch (error) {
+    console.log("Error in logout controller", error.message);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+// تصدير الوظائف باستخدام CommonJS
+module.exports = { signup, login, getUsersForSidebar, logout };

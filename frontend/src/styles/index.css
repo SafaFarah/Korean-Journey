@@ -1,25 +1,35 @@
+/* index.css */
+
+/* تخصيص الخطوط */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Inter;
-  }
-  
-  * {
-    box-sizing: border-box;
-    line-height: normal;
-    font-family: inherit;
-    margin: unset;
-  }
-  
-  a {
-    text-decoration: none;
-    display: block;
-  }
-  
-  ul {
-    margin: 0;
-    margin-inline: unset !important;
-    padding: 0;
-    list-style: none;
-  }
-  
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* تخصيص الروابط */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* تحسين الرسوم */
+button {
+  transition: all 0.3s ease-in-out;
+}
+
+/* تخصيص الحواف */
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+/* تخصيص الظلال */
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* نصوص عامة */
+.text-center {
+  text-align: center;
+}

@@ -1,0 +1,34 @@
+/* tailwind.css */
+
+/* Import Tailwind base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Customizing colors */
+@layer base {
+  :root {
+    --primary-color: #1e40af; /* Blue */
+    --secondary-color: #f97316; /* Orange */
+    --background-light: #f3f4f6; /* Light background */
+    --text-dark: #111827; /* Dark text */
+  }
+}
+
+/* Adding custom components */
+@layer components {
+  .btn-primary {
+    @apply bg-blue-800 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition;  /* Primary button style */
+  }
+
+  .btn-secondary {
+    @apply bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-500 transition;  /* Secondary button style */
+  }
+}
+
+/* Customizing borders */
+@layer utilities {
+  .rounded-xl {
+    border-radius: 1rem;  /* Extra-large border radius */
+  }
+}

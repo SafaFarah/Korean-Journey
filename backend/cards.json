@@ -1,0 +1,481 @@
+[{
+  "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668376/sheep_1_jqxkbm.png",
+  "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668375/sheep_2_nlyelw.png",
+  "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735747714/sheep_eqy8aq.mp3",
+  "group": "Animals"
+},
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668360/rabbit_1_bgz5ov.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668360/rabbit_2_neipv6.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735747713/rabbit_baqwh9.mp3",
+    "group": "Animals"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668327/horse_1_bocary.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668326/horse_2_rroowe.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735747713/horse_lu1w5l.mp3",
+    "group": "Animals"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668310/dog_1_agr7f7.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668311/dog_2_zxdbbs.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735747713/dog_kwpuad.mp3",
+    "group": "Animals"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668306/cow_1_vmhdv3.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668306/cow_2_qck3wg.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735747713/cow_pej3oy.mp3",
+    "group": "Animals"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668294/cat_1_yvo6iy.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668294/cat_2_tchs08.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735747713/cat_fpf6de.mp3",
+    "group": "Animals"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668293/chicken_1_kj99m9.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668299/chicken_2_ihq07d.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735747713/chicken_oy07ks.mp3",
+    "group": "Animals"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668287/banana_1_pz1g7g.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668287/banana_2_lbiz34.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735748535/banana_jva7da.mp3",
+    "group": "Fruits"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668287/apple_1_yawnp0.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668287/apple_2_xfwxmr.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735748535/apple_vbo8pt.mp3",
+    "group": "Fruits"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668325/grapes_1_nlm4rs.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668325/grapes_2_rmkcom.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735748536/grapes_nodhr7.mp3",
+    "group": "Fruits"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668340/mango_1_ffkoeq.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668340/mango_2_mds8ll.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735748536/mango_ejqyu9.mp3",
+    "group": "Fruits"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668359/Orangee_1_eg7gci.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668359/Orangee_2_ltal7n.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735748536/orangee_e4rax5.mp3",
+    "group": "Fruits"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668377/strawberry_1_ve66mw.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668377/strawberry_2_hkjj21.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735748536/strawberry_jo9nhl.mp3",
+    "group": "Fruits"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668392/watermelom_1_rrr7jw.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668392/watermelom_2_h4zfxr.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735748536/watermelon_t6kkpn.mp3",
+    "group": "Fruits"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668394/younger_sister_1_nwlbfe.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668394/younger_sister_2_vfgry5.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735749486/younger_sister_atdahc.mp3",
+    "group": "Family2"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668394/younger_brother_1_rtt9oe.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668394/younger_brother_2_bb6tj2.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735749486/younger_brother_waghbg.mp3",
+    "group": "Family2"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668392/wife_1_uxsgge.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668392/wife_2_rmw1t0.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735749486/wife_fthpdh.mp3",
+    "group": "Family2"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668378/uncle_1_bdmjhs.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668378/uncle_2_eflzbz.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735749482/uncle_s3vkoq.mp3",
+    "group": "Family2"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668376/son_1_bs27er.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668376/son_2_respyz.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735749482/son_bsimye.mp3",
+    "group": "Family2"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668358/older_sister_m_1_tzyeqc.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668358/older_sister_m_2_xxfpms.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735749481/older_sister_m_db9uld.mp3",
+    "group": "Family2"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668357/older_sister_f_1_lgpbuk.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668357/older_sister_f_2_ysaahu.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735749481/older_sister_f_rt3jfq.mp3",
+    "group": "Family2"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668344/older_brother_m_1_cxxcni.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668344/older_brother_m_2_lnbkbs.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735749481/older_brother_m_pfoisx.mp3",
+    "group": "Family2"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668344/older_brother_f_1_yl4gdj.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668344/older_brother_f_2_qummlz.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735750198/older_brother_f_ofgath.mp3",
+    "group": "Family1"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668341/mother_1_tdzmbo.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668342/mother_2_bipvv1.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735750197/mother_jitqk6.mp3",
+    "group": "Family1"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668327/husband_1_yfwnvj.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668337/husband_2_v7ujz7.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735750197/husband_l0hl3e.mp3",
+    "group": "Family1"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668324/grandmother_1_qjlbqw.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668324/grandmother_2_jgssee.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735750194/grandmother_vgblqx.mp3",
+    "group": "Family1"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668324/grandfather_1_gpl8g6.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668324/grandfather_2_dnknx9.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735750194/grandfather_m6va69.mp3",
+    "group": "Family1"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668323/father_1_zfaw5f.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668323/father_2_durdkj.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735750194/father_lywskn.mp3",
+    "group": "Family1"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668308/daughter_1_zgjiok.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668308/daughter_2_hzrm2c.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735750193/daughter_mtankx.mp3",
+    "group": "Family1"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668288/aunt_1_kwdoa4.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668290/aunt_2_ncavc5.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735750193/aunt_pi9f6d.mp3",
+    "group": "Family1"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668287/angry_1_nzpm7d.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668287/angry_2_hxbues.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751128/angry_ypkwkw.mp3",
+    "group": "Emotions"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668307/cry_1_muhxxp.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668307/cry_2_cjakyk.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751128/cry_apy4ax.mp3",
+    "group": "Emotions"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668325/happy_1_d6xwt5.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668326/happy_2_p8ahx2.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751129/happy_lrylkx.mp3",
+    "group": "Emotions"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668339/laugh_1_mhrwm5.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668338/laugh_2_tubirf.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751129/laugh_yjw0ay.mp3",
+    "group": "Emotions"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668339/love_1_hrtkwa.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668339/love_2_ivicsg.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751130/love_fldwua.mp3",
+    "group": "Emotions"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668374/sad_1_ja09q7.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668374/sad_2_gifj5w.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751133/sad_x2luj0.mp3",
+    "group": "Emotions"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668374/scared_1_qifjs7.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668374/scared_2_zavyka.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751134/scared_b3bfen.mp3",
+    "group": "Emotions"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668392/worry_1_rwklmr.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668393/worry_2_ihzzle.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751134/worry_tcqydh.mp3",
+    "group": "Emotions"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668392/yellow_1_mapmem.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668393/yellow_2_qycmnw.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751637/yellow_tugrla.mp3",
+    "group": "Colors"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668391/whilte_1_ahjuwk.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668391/whilte_2_y7rtmt.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751636/white_hvyp2j.mp3",
+    "group": "Colors"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668360/red_1_fiobqu.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668360/red_2_dty1yt.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751635/red_zxu6ce.mp3",
+    "group": "Colors"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668358/orange_1_ozpba7.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668358/orange_2_vmru9d.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751634/orange_vdvmnc.mp3",
+    "group": "Colors"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668324/green_1_jros5j.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668325/green_2_w2sujl.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751632/green_qzeng1.mp3",
+    "group": "Colors"
+  },
+
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668291/blue_1_fts8zl.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668291/blue_2_utsrja.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751632/blue_cxyeyc.mp3",
+    "group": "Colors"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668290/black_1_ddlprt.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668290/black_2_yjvnoi.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735751632/black_voaxko.mp3",
+    "group": "Colors"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668289/army_1_ik3d1g.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668289/army_2_rskque.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735752289/army_vb8mdi.mp3",
+    "group": "Life_Events"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668290/birthday_1_luuo0z.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668290/birthday_2_yvfqh7.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735752290/birthday_jtu6bb.mp3",
+    "group": "Life_Events"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668291/born_1_d2vszh.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668292/born_2_fvzdu8.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735752290/born_q9ncap.mp3",
+    "group": "Life_Events"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668308/date_1_e7donj.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668308/date_2_ukbsgq.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735752293/date_qkujvm.mp3",
+    "group": "Life_Events"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668309/die_1_sqjzpt.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668309/die_2_qjza63.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735752293/die_sbzoj0.mp3",
+    "group": "Life_Events"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668311/dream_1_teggye.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668311/dream_2_aoccf2.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735752295/dream_tgegoo.mp3",
+    "group": "Life_Events"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668340/marriag_1_nntcbc.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668341/marriag_2_jfyxok.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735752296/marriage_lmamtw.mp3",
+    "group": "Life_Events"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668378/water_1_sbhhk8.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668391/water_2_tkvg9p.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735752769/water_y2vqyv.mp3",
+    "group": "Drinks"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668377/tea_1_zclrbq.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668377/tea_2_nlv9bs.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735752766/tea_nvl3sg.mp3",
+    "group": "Drinks"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668375/soda_1_s501vk.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668376/soda_2_jfylnf.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735752766/soda_ilnebj.mp3",
+    "group": "Drinks"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668341/milk_1_khi6ov.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668341/milk_2_iapvi9.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735752764/milk_q4ixmd.mp3",
+    "group": "Drinks"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668337/juice_1_oeig58.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668338/juice_2_tki8c6.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735752764/juice_p8c3za.mp3",
+    "group": "Drinks"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668306/coffee_1_ueaeon.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668306/coffee_2_sinbum.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735752763/coffee_tae4sq.mp3",
+    "group": "Drinks"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668290/beef_1_oeyao4.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668290/beef_2_rdemel.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735753250/beef_gcfash.mp3",
+    "group": "Food"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668338/kimichi_1_rgylik.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668344/kimichi_2_kwfoec.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735753251/kimichi_m9mnk9.mp3",
+    "group": "Food"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668343/noodles_1_h5wd1x.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668344/noodles_2_m2lva1.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735753254/noodles_fjtawr.mp3",
+    "group": "Food"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668361/rice_1_jberxh.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668361/rice_2_gxjr0h.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735753254/rice_mxrvj0.mp3",
+    "group": "Food"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668362/rice_cakes_1_eciyyp.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668363/rice_cakes_2_xdel1d.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735753257/rice_cake_tdcrau.mp3",
+    "group": "Food"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668362/rice_rolls_1_ya1r7w.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668374/rice_rolls_2_dwqgwx.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735753251/kimbap_heh5wv.mp3",
+    "group": "Food"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668376/soup_1_nqgx09.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668377/soup_2_rxln0n.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735753257/soup_mqi7fh.mp3",
+    "group": "Food"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668375/secretary_1_h1rdx8.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668375/secretary_2_gpjkmt.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735753870/secretary_u6ikmm.mp3",
+    "group": "Jobs"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668361/reporter_1_ggjnzb.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668361/reporter_2_klf5by.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735753869/reporter_c46ouk.mp3",
+    "group": "Jobs"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668360/police_1_lde6kr.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668360/police_2_fk0w0y.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735753867/police_ebs6mj.mp3",
+    "group": "Jobs"
+  },  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668342/nurse_1_hoajjs.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668344/nurse_2_vdkwmv.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735753866/nurse_oryts8.mp3",
+    "group": "Jobs"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668339/lawyer_1_cna0u0.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668339/lawyer_2_ekge5r.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735753864/lawyer_hvvahg.mp3",
+    "group": "Jobs"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668323/farmer_1_rmkgpq.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668323/farmer_2_yykh62.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735753863/farmer_zatvdm.mp3",
+    "group": "Jobs"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668309/doctor_1_lwxd2e.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668310/doctor_2_ri6bmj.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735753862/doctor_xvwajq.mp3",
+    "group": "Jobs"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668378/tomato_1_giojwe.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668378/tomato_2_ujtsld.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735754564/tomato_ivdmuc.mp3",
+    "group": "Vegetables"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668358/onion_1_imw13r.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668358/onion_2_dvhgqh.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735754563/onion_uu3sfx.mp3",
+    "group": "Vegetables"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668323/garlic_1_hg2nya.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668323/garlic_2_yeal31.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735754561/garlic_s5zwvw.mp3",
+    "group": "Vegetables"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668312/eggplant_1_ovugqx.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668322/eggplant_2_pffwef.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735754560/eggplant_ntifjv.mp3",
+    "group": "Vegetables"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668306/cucumber_1_s3rvir.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668312/cucumber_2_kxcx6s.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735754559/cucumber_mfaior.mp3",
+    "group": "Vegetables"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668307/chili_1_nufqqk.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668305/chili_2_rwrsz2.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735754557/chili_bebh0y.mp3",
+    "group": "Vegetables"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668292/carrot_1_uai2bt.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668293/carrot_2_ul02gi.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735754556/carrot_uq0v6t.mp3",
+    "group": "Vegetables"
+  },
+  {
+    "frontImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668293/cabbage_1_xk2xqe.png",
+    "backImage": "https://res.cloudinary.com/dvfqc6jma/image/upload/v1735668293/cabbage_2_ylbntq.png",
+    "audio": "https://res.cloudinary.com/dvfqc6jma/video/upload/v1735754547/cabbage_dcwnnd.mp3",
+    "group": "Vegetables"
+  }
+]
